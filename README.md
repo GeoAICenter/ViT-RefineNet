@@ -45,3 +45,8 @@ You can customize this command as needed:
 To change the sampled points: Modify seq 20 20 100 with your desired start, step, and end values.
 
 To change the number of processes: Modify -P 5 to your desired number of parallel jobs (e.g., -P 8 for 8 processes).
+
+#Note on Positional Embedding
+
+Please note that the description of the positional embedding in the paper is not fully accurate.
+For the correct implementation details, please refer to the code in this repository, which reflects the actual design used in all experiments.
